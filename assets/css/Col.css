@@ -1,0 +1,35 @@
+@media (min-width:576px) {
+  .col-sm-4 {
+    flex: 0 0 auto;
+    width: 23%;
+  }
+}
+
+@media (min-width:768px) {
+  .col-md-8 {
+    flex: 0 0 auto;
+    width: 77%;
+  }
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) * -.5);
+  margin-left: calc(var(--bs-gutter-x) * -.5);
+  border-radius: 20px;
+}
+
+.crow {
+  margin-top: 80px;
+  background-color: #08302c;
+}
+
+.highlight-phone .intro .btn-primary {
+  background-color: #083d30;
+  color: #fff;
+}
+
